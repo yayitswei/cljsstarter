@@ -1,14 +1,17 @@
-# jikken
+# cljsstarter
 
-A website written in noir. 
+Starter code for a clojurescript project
 
 ## Usage
 
-If you use cake, substitute 'lein' with 'cake' below. Everything should work fine.
-
-```bash
+```'bash
+git clone git@github.com:yayitswei/cljsstarter.git
+rm -r .git
+git init
 lein deps
+lein cljsbuild auto dev
 lein run
+lein vimclojure (etc..)
 ```
 
 ## License
